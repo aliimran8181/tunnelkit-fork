@@ -23,8 +23,6 @@ let package = Package(
         // External dependencies
         .package(url: "https://github.com/SwiftyBeaver/SwiftyBeaver", from: "1.9.0"),
         .package(url: "https://github.com/passepartoutvpn/openssl-apple", from: "3.2.105"),
-        // ✅ Fixed: use the public upstream WireGuard Apple package
-        .package(url: "https://github.com/canstralian/wireguard-apple.git", branch: "master")
     ],
     targets: [
         // MARK: - Core Targets
